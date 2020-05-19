@@ -1,0 +1,18 @@
+{
+  "name": "troizet/crator",
+  "description": "crator",
+  "type": "project",
+  "require": {
+    "php": ">=7.3"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "secure-http": false
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
