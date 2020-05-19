@@ -3,7 +3,10 @@
   "description": "crator",
   "type": "project",
   "require": {
-    "php": ">=7.3"
+    "php": ">=7.3",
+    "vantoozz/proxy-scraper": "*",
+    "php-http/guzzle6-adapter": "*",
+    "guzzlehttp/guzzle": "*"
   },
   "config": {
     "process-timeout": 1800,
